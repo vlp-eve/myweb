@@ -1,0 +1,51 @@
+*{
+
+    padding: 0px;
+    margin: 10px 0px;
+}
+.return{
+    border: 1px solid;
+    margin:0 20px;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color:grey;
+}
+.return:hover{
+    background-color: aqua;
+    color: black;
+}
+nav{
+    margin-left: 550px;
+    margin-top: 100px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    border: 1px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav ul li.active{
+    background-color: aqua;   
+}
+nav ul li a{
+    text-decoration: none;
+    padding-right:30px ;
+    color: grey;
+    margin-left: 20px;
+    font-size: large;
+}
+nav ul li a:hover{
+    color: black;   
+}
+nav ul li a.active{
+    color:black
+}
+form{
+    margin: 50px 550px;
+    line-height: 30px;
+}
